@@ -1,0 +1,125 @@
+
+.container-fluid{
+    background-color: rgb(195, 194, 255);
+}
+.container {
+margin: 2%;
+}
+.card{
+    margin: 25%;
+}
+.carousel{
+    width: 100px;
+}
+.carousel{
+    width: 75%;
+}
+h1{
+    text-align: left;
+    margin: 27%;
+}
+p{
+    align-items: center;
+    margin-left: 10%;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.site-footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.address,
+.small {
+    display: block;
+    margin-bottom: 10px;
+}
+
+address {
+    font-style: normal;
+}
+
+small {
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+}
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fefefe;
+    color: #333;
+    line-height: 1.6;
+}
+
+.form-container {
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.site-footer{
+    background-color: #a77bc4;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form select,
+form input[type="email"],
+form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5007c5;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #a77bc4;
+}
+
+@media(max-width: 768px){}
+    .form-container{
+        width: 90%;
+    }
